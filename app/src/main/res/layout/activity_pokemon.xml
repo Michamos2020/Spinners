@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131212"
+    tools:context=".Pokemon">
+
+    <TextView
+        android:id="@+id/txt_tittuloPokemon"
+        android:layout_width="205dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/txt_tittuloPokemon"
+        android:textColor="#D1943B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Atras_pokemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txt_bulbasur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/txt_bulbasur"
+        android:textColor="#F1E8E8"
+        app:layout_constraintEnd_toStartOf="@+id/txtjigglypuff"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="68dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="540dp"
+        android:background="#FDF2F2"
+        android:contentDescription="@string/to_"
+        android:onClick="Mensajerowlet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tittuloPokemon"
+        app:srcCompat="@drawable/rowlet"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="68dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="64dp"
+        android:background="#E4D8D8"
+        android:contentDescription="@string/t00do"
+        android:onClick="MensajeBulbasaur"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tittuloPokemon"
+        app:srcCompat="@drawable/bulbasaur"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtjigglypuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/txtjigglypuff"
+        android:textColor="#FAECEC"
+        app:layout_constraintEnd_toStartOf="@+id/txtrowlet"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+    <TextView
+        android:id="@+id/txtrowlet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="552dp"
+        android:text="@string/txtrowlet"
+        android:textColor="#EFE1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:background="#EFE2E2"
+        android:contentDescription="@string/tod"
+        android:onClick="Mensajejiggly_puf"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tittuloPokemon"
+        app:srcCompat="@drawable/jigglypuff" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:background="#F3E4E4"
+        android:contentDescription="@string/toodo"
+        android:onClick="Mensajecaterpie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_bulbasur"
+        app:srcCompat="@drawable/caterpie"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="62dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:background="#F8EDED"
+        android:contentDescription="@string/tod00"
+        android:onClick="Mensajeelekid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_eeve"
+        app:srcCompat="@drawable/elekid"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:background="#F6EAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toEndOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/txttorchic"
+        app:srcCompat="@drawable/chiko"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/txt_charizard"
+        android:layout_width="57dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_charizard"
+        android:textColor="#EAE6E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FAF1F1"
+        android:contentDescription="@string/todo"
+        android:onClick="Mensajepiplup"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/txtpidgey"
+        app:srcCompat="@drawable/piplup" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:background="#F8F2F2"
+        android:contentDescription="@string/todo2"
+        android:onClick="Mensajeevee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_charizard"
+        app:srcCompat="@drawable/eevee" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#F1EEEE"
+        android:contentDescription="@string/todo_"
+        android:onClick="MensajePsyduck"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/txtpiplup"
+        app:srcCompat="@drawable/psyduck"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="TODO"
+        android:onClick="MensajeCharizard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcaterpie"
+        app:srcCompat="@drawable/charizard" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="#EADFDF"
+        android:contentDescription="@string/todo__"
+        android:onClick="MensajePidgey"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/txtMeowth"
+        app:srcCompat="@drawable/pidgey"
+        tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/txtsandshrew"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtsandshrew"
+        android:textColor="#EDE9E9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toEndOf="@+id/txtMeowth"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtpidgey"
+        android:layout_width="57dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtpidgey"
+        android:textColor="#F1E9E9"
+        app:layout_constraintStart_toEndOf="@+id/txt_charizard"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txttorchic"
+        android:layout_width="61dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textview_"
+        android:textColor="#EAE0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toEndOf="@+id/txtpiplup"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+        tools:ignore="TextSizeCheck,VisualLintBounds"
+        tools:text="@string/txttorchic" />
+
+    <TextView
+        android:id="@+id/txtelekid"
+        android:layout_width="59dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtelekid"
+        android:textColor="#F1E4E4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:background="#F1E7E7"
+        android:contentDescription="@string/tod0"
+        android:onClick="Mensajesandshrew"
+        app:layout_constraintTop_toBottomOf="@+id/txtrowlet"
+        app:srcCompat="@drawable/sandshrew"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="203dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="63dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:background="#EDE7E7"
+        android:contentDescription="@string/t0do"
+        android:onClick="Mensajetorchic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toEndOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/txtSolluna"
+        app:srcCompat="@drawable/torchic"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtChikorita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:onClick="MensajeChikorita"
+        android:text="@string/txtChikorita"
+        android:textColor="#F1EAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toEndOf="@+id/txtpsyduck"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton19" />
+
+    <TextView
+        android:id="@+id/txtpsyduck"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtpsyduck"
+        android:textColor="#E6D4D4"
+        app:layout_constraintStart_toEndOf="@+id/txtelekid"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtMeowth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtMeowth"
+        android:textColor="#EFDFDF"
+        app:layout_constraintStart_toEndOf="@+id/txtcaterpie"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <TextView
+        android:id="@+id/txt_eeve"
+        android:layout_width="54dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/txt_eeve"
+        android:textColor="#F6EBEB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <TextView
+        android:id="@+id/txtSolluna"
+        android:layout_width="55dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtSolluna"
+        android:textColor="#EFE6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toEndOf="@+id/txtpidgey"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="58dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:background="#EDDADA"
+        android:contentDescription="@string/tod0_"
+        android:onClick="Mensajemeuwth"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/txtjigglypuff"
+        app:srcCompat="@drawable/meowth"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="59dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#F4EBEB"
+        android:contentDescription="TODO"
+        android:onClick="Mensajeumbreon"
+        app:layout_constraintStart_toEndOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/txtsandshrew"
+        app:srcCompat="@drawable/sol_y_luna" />
+
+    <TextView
+        android:id="@+id/txtcaterpie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/txtcaterpie"
+        android:textColor="#F8E9E9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/txtpiplup"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtpiplup"
+        android:textColor="#F6E2E2"
+        app:layout_constraintStart_toEndOf="@+id/txt_eeve"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_Atras_pokemon"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:background="#970B0B"
+        android:onClick="Regresa"
+        android:text="@string/btn_Atras_pokemon"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

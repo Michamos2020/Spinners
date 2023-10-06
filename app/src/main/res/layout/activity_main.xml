@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7ECE8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="264dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/txtView1"
+        android:textColor="#F4F4F4"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_opciones"
+        android:layout_width="194dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#EDE3E3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView1" />
+
+    <Button
+        android:id="@+id/btn_ejecutar1"
+        android:layout_width="209dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="236dp"
+        android:background="#C59A1C"
+        android:onClick="Ejecutar"
+        android:text="@string/btn_ejecutar1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_1"
+        app:layout_constraintVertical_bias="0.309" />
+</androidx.constraintlayout.widget.ConstraintLayout>

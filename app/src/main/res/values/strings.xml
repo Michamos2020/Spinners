@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Spinners</string>
+    <string name="txtView1">Bienvenido</string>
+    <string name="txt_tittuloPokemon">Tus pokemones</string>
+
+
+    <string name="txt_bulbasur">Bulbasaur</string>
+    <string name="txtcaterpie">Caterpie</string>
+    <string name="txt_charizard">Charizard</string>
+    <string name="txt_eeve">Eevee</string>
+    <string name="txtelekid">Elekid</string>
+    <string name="txtjigglypuff">Jiggly Puff</string>
+    <string name="txtMeowth">Meowth</string>
+    <string name="txtpidgey">Pidgey</string>
+    <string name="txtpiplup">Piplup</string>
+    <string name="txtpsyduck">Psyduck</string>
+    <string name="txtrowlet">Rowlet</string>
+    <string name="txtsandshrew">Sandshrew</string>
+    <string name="txtSolluna">Umbreon</string>
+    <string name="txttorchic">Torchic</string>
+    <string name="txtChikorita">Chikorita</string>
+
+
+    <string name="btn_ejecutar1">Ejecutar</string>
+    <string name="btn_Atras_pokemon">«</string>
+    <string name="btn_resgresarDato">«</string>
+    <string name="btnEjecutarDato">Siguiente</string>
+
+
+
+
+
+    <string name="txt_salir_pokemon">Salir</string>
+
+
+    <string name="textView">Seleccione un nombre</string>
+    <string name="txtingresaDato">Dato</string>
+
+
+    <string name="todo">TODO</string>
+    <string name="todo_">TODO</string>
+    <string name="todo__">TODO</string>
+    <string name="tod0">TODO</string>
+    <string name="tod00">TODO</string>
+    <string name="tod0_">TODO</string>
+    <string name="tod">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="to_">TODO</string>
+    <string name="toodo">TODO</string>
+    <string name="t0do">TODO</string>
+    <string name="t00do">TODO</string>
+    <string name="textview_">TextView</string>
+
+
+</resources>
